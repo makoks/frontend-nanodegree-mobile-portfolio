@@ -27,7 +27,14 @@
 
   <body>
     <header>
-      <a href="/"><img src="img/profilepic.jpg"></a>
+      <a href="/">
+        <picture>
+          <source type="image/webp" srcset="img/profilepic.webp">
+          <source type="image/jp2" srcset="img/profilepic.jp2">
+          <source type="image/jxr" srcset="img/profilepic.jxr">
+          <img src="img/profilepic.jpg">
+        </picture>
+      </a>
       <p>Cameron Pittman<br><span>Course Developer</span></p>
     </header>
 
